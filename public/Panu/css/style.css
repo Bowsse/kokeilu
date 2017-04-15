@@ -1,0 +1,98 @@
+/* CSS Document */
+body {
+	font-size: 17px;
+	font-family: calibri, arial;
+        line-height: 160%;
+        color: #333;
+	background-color: #FFFFFF;
+}
+header {
+        background-color: #00497D;
+        height: 50px;
+        padding-bottom: 0px;
+        padding-top: 5px;
+        margin: 0px;
+}
+a {
+       display: inline-block;
+       position: relative; 
+       font-weight: bold;
+       font-size: 35;
+       padding-left: 20px;
+       padding-right: 20px;
+       padding-bottom: 0px;
+       color: #FFFFFF;
+       text-decoration: none;
+       border-top: 3px solid transparent;
+}
+a:hover{
+       border-color: black;
+}
+section {
+      background-color: #EEEEEE;
+      	overflow:auto;
+	text-align:center;
+	padding-top: 1em;
+        width: 78%;
+        padding: 10px;
+
+}
+
+
+img{
+      float: left;
+      padding: 10px;
+      height: auto;
+      width: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    height: 100%;
+}
+
+tr {
+  height: 1px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+td:nth-child(1){background-color: #58ACFA}
+
+td.sub{background-color: #66ff99}
+
+
+
+label {
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+td.selected {
+  background-color: green;
+}
+
+span {
+  display: block;
+  overflow: hidden;
+  padding-right: 8px;
+}
+
+th {
+    background-color: #00497D;
+    color: white;
+}
+
+input[type="radio"]{
+
+
+
+}

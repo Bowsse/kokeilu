@@ -1,0 +1,17 @@
+permission
+
+0 = student
+1 = supervisor
+2 = admin
+
+
+
+studentID       = K2857
+supervisorID    = H8884
+admin           = admin
+password = test
+
+thesisID = 1
+
+
+roles = student / supervisor1 / supervisor2 / admin

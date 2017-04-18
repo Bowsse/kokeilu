@@ -1,7 +1,7 @@
 <?php
-session_start();
 include_once("header.php");
-require_once("../../../../db_init.php");
+require_once("links.php");
+
 ?>
 
 <head>

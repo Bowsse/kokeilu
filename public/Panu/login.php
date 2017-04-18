@@ -1,7 +1,8 @@
 <?php
 include("links.php");
-session_start();
+include_once("header.php");
 
+echo "<section class='small'>";
 if (!empty($_POST['username']) AND !empty($_POST['password'])) {
 	$username = $_POST['username'];
    	$password = $_POST['password'];
@@ -48,3 +49,5 @@ if (!empty($_POST['username']) AND !empty($_POST['password'])) {
 	<input type="password" name="password" autocomplete="off" required><br>
 	<br><input type="submit" value="Login"><br>
 </form>
+
+</section>

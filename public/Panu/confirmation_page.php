@@ -24,6 +24,7 @@ $_SESSION['grade5'] = ($_POST["51"] + $_POST["52"] + $_POST["53"]) / 3;
 $_SESSION['comment'] = $_POST["comments"];
 
 
+echo "<section class='wide'>";
 
 if(isset($_SESSION['thesisID']))
 {
@@ -44,39 +45,36 @@ if(isset($_SESSION['thesisID']))
 	
 
 
-echo "<section>";
-echo "<a href='supervisor.php' class='content'>Return</a>";
+
 echo "<h2>Grades submitted!</h2>";
-echo "<h2>Grade 1 average: {$_SESSION['grade1']}</h2>";
-echo "<h2>Grade 2 average: {$_SESSION['grade2']}</h2>";
-echo "<h2>Grade 3 average: {$_SESSION['grade3']}</h2>";
-echo "<h2>Grade 4 average: {$_SESSION['grade4']}</h2>";
-echo "<h2>Grade 5 average: {$_SESSION['grade5']}</h2>";
-
-echo "<h2>Comment: {$_SESSION['comment']}</h2>";
+echo "<a href='supervisor.php' class='content'>Return</a>";
 
 
-echo "</section>";
 
-	}
+}
+
+	
 	else
 	{
-		echo "<section>";
 
 		echo "<h2>You have already given final review.</h2>";
 		echo "<a href='supervisor.php' class='content'>Return</a>";
 	}
-}
+
+
+	}
+
 }
 
-echo "<section>";
+echo "</section>";
+echo "<section class='wide'>";
 
 
 if(isset($_SESSION['thesisID']))
 {
-	$grades = $db->query("SELECT * FROM Grade WHERE Thesis_thesisID = '".$_SESSION['thesisID']."'");
+	$grades = $db->query("SELECT * FROM Grade WHERE Thesis_thesisID = '".$_SESSION['thesisID']."' AND Person_personID = '".$_SESSION['username']."'");
 
-	echo "<h2>All grades of thesisID {$_SESSION['thesisID']}";
+	echo "<h2>Your evaluation of thesisID {$_SESSION['thesisID']}</h2>";
 
 	echo "<table border='1'>\n";
 

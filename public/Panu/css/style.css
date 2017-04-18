@@ -21,7 +21,7 @@ header {
 
 }
 
-a.nav {
+.nav {
        display: inline-block;
        position: relative; 
        font-weight: bold;
@@ -99,6 +99,7 @@ section.wide {
       background-color: #EEEEEE;
         overflow: auto;
         margin: auto;
+        margin-top: 25px;
         height: auto;
        text-align:center;
        padding-top: 1em;

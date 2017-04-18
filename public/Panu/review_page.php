@@ -34,31 +34,23 @@ if(isset($_SESSION['thesisID']))
 <!--  Thesis and user selection for developing purposes -->
 			<?php
 
+		if(isset($_SESSION['username']))
+			{
+
 				if(isset($_POST['thesisID']))
 				{
 					$_SESSION['thesisID'] = $_POST['thesisID'];
-					echo "<H2> Reviewing thesisID: {$_SESSION['thesisID']}    ";
 
-				}
-				else
-				{
-					echo "No thesis selected.";
 
-				}
+					$thesis = $db->query("SELECT * FROM Thesis WHERE thesisID = '".$_SESSION['thesisID']."'");
 
-					
 
-				if(isset($_SESSION['username']))
-				{
-					echo "Reviewing as {$_SESSION['username']}";
+								while($t = $thesis->fetch(PDO::FETCH_ASSOC)) {
+						echo "<H2> Reviewing thesis: {$t['thesisID']}  {$t['subject']}</H2>";
+					}
 
-				}
-				else
-				{
-					echo "You are not logged in.";
 
-				}
-
+/*
 			$person = $db->query("SELECT * FROM Person WHERE PersonID = '".$_SESSION['username']."'");
 
 			echo "<h2>Reviewer</h2>";
@@ -74,31 +66,19 @@ if(isset($_SESSION['thesisID']))
 
 	echo "</table>\n";
 
-	$thesis = $db->query("SELECT * FROM Thesis WHERE thesisID = '".$_SESSION['thesisID']."'");
+	*/
 
-	echo "<h2>Thesis</h2>";
-	echo "<table border='1'>\n";
+echo "<a href='supervisor.php' class='content'>Return</a>";
 
-	echo "<tr><td>ID</td><td>estimated date</td><td>subject</td></tr>\n";
+echo "</section>";
 
-	while($row = $thesis->fetch(PDO::FETCH_ASSOC)) {
-	  echo "<tr><td>{$row['thesisID']}</td><td>{$row['estimatedDate']}</td><td>{$row['subject']}</td></tr>\n";
-	}
+include_once("evaluation_form.php");
 
-	echo "</table>\n";
+	}	
 
-			?>
-
-</section>
-
-<?php include_once("evaluation_form.php"); ?>
-
-<?php
-
-//TODO: Count averages by looping through form
-//TODO: session shit and confirmation popup?
-
-
+}
+else
+{echo "<a href='supervisor.php' class='content'>Return</a>";}
 
 ?>
 

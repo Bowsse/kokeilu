@@ -13,7 +13,7 @@ $userInfo = array(
 	'email' => 'Email',
 	'password' => 'Password',
 );
-
+echo "<section class='small'>";
 echo "<h3>User information</h3>";
 
 foreach($user as $u){
@@ -21,4 +21,5 @@ foreach($user as $u){
 		echo $field.": ".$u[$key]."<br>";
 	}
 }
+echo "</section>";
 ?>

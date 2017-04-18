@@ -30,7 +30,7 @@ if ($selectedVersion == null) {
 } else {
 	$versionID = $selectedVersion;
 } 
-
+echo "<section class='small'>";
 
 echo "<script type='text/javascript'> window.onload=changeVersion($versionID); </script>";
 
@@ -68,5 +68,6 @@ FORMEND;
 
 echo $form;
 
-echo "<a href='student_new_version.php'>New version</a> ";
+echo "<a href='student_new_version.php' class='content'>New version</a> ";
+echo "</section>";
 ?>

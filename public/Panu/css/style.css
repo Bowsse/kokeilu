@@ -5,15 +5,23 @@ body {
         line-height: 160%;
         color: #333;
 	background-color: #FFFFFF;
+
 }
 header {
+        position: relative;
+        z-index: 1;
         background-color: #00497D;
         height: 50px;
+        width: 100%;
         padding-bottom: 0px;
         padding-top: 5px;
         margin: 0px;
+        overflow: hidden;
+        top:0px;
+
 }
-a {
+
+a.nav {
        display: inline-block;
        position: relative; 
        font-weight: bold;
@@ -28,16 +36,98 @@ a {
 a:hover{
        border-color: black;
 }
-section {
-      background-color: #EEEEEE;
-      	overflow:auto;
-	text-align:center;
-	padding-top: 1em;
-        width: 78%;
-        padding: 10px;
+
+.sidebar
+{
+  z-index: 0;
+  height: 100%;
+  width: 10%;
+  position: absolute;
+  background-color: #EEEEEE;
+  overflow-x: hidden;
+  padding-top: 70px;
+  top: 8px;
+  bottom: 8px;
 
 }
+.sidebar a
+{
+  text-align: center;
+  padding: 4px 4px 4px 4px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #DE007B;
+  display: block;
+  border: 2px solid;
+  border-color: #DE007B;
+}
+.sidebar a:hover{
+  background-color: #FFFFFF;
+  color: #DE007B;
 
+}
+a.content
+{
+  text-align: center;
+  padding: 4px 4px 4px 4px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #DE007B;
+  display: inline-block;
+  border: 2px solid;
+  border-color: #DE007B;
+
+}
+a.content:hover{
+  background-color: #FFFFFF;
+  color: #DE007B;
+
+}
+section {
+      background-color: #EEEEEE;
+      	overflow: auto;
+        margin: auto;
+	     text-align:center;
+	     padding-top: 1em;
+        width: 88%;
+        padding: 10px;
+        height: 100%;
+      }
+section.wide {
+      background-color: #EEEEEE;
+        overflow: auto;
+        margin: auto;
+        height: auto;
+       text-align:center;
+       padding-top: 1em;
+        width: auto;
+        padding: 10px;
+      }
+section.small {
+      background-color: #EEEEEE;
+        overflow: auto;
+        margin: auto;
+        margin-top: 25px;
+        height: auto;
+       text-align:center;
+       padding-top: 1em;
+        width: 25%;
+        padding: 10px;
+      }
+.small h3
+{
+  color: #00497D;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+li {
+  display: inline;
+}
 
 img{
       float: left;
@@ -67,7 +157,7 @@ td.sub{background-color: #66ff99}
 
 
 
-label {
+label.evaluation {
   cursor: pointer;
   display: block;
   text-align: center;
@@ -75,6 +165,7 @@ label {
   height: auto !important;
   height: 100%;
 }
+
 
 td.selected {
   background-color: green;

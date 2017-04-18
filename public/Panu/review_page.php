@@ -1,7 +1,21 @@
 <?php
-session_start();
-include_once("head.php");
-require_once("../../../db_init.php");
+include_once("header.php");
+require_once("links.php");
+
+if(isset($_SESSION['thesisID']))
+{
+
+	$duplicateCheck = $db->query("SELECT * FROM Grade WHERE Thesis_thesisID = '".$_SESSION['thesisID']."' AND Person_personID =  '".$_SESSION['username']."'");
+	if(isset($duplicateCheck))
+	{
+		$noRows = $duplicateCheck->rowCount();
+
+	if ($noRows != 0)
+	{
+		Header("Location: confirmation_page.php");
+	}
+}
+}
 
 ?>
 
@@ -16,7 +30,7 @@ require_once("../../../db_init.php");
 
 
 
-<section>
+<section class="wide">
 <!--  Thesis and user selection for developing purposes -->
 			<?php
 

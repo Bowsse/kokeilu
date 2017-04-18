@@ -1,7 +1,7 @@
 <?php
 session_start();
-include_once("head.php");
-require_once("../../../db_init.php");
+include_once("header.php");
+require_once("../../../../db_init.php");
 ?>
 
 <head>
@@ -45,7 +45,7 @@ if(isset($_SESSION['thesisID']))
 
 
 echo "<section>";
-echo "<a href='supervisor.php'>Return</a>";
+echo "<a href='supervisor.php' class='content'>Return</a>";
 echo "<h2>Grades submitted!</h2>";
 echo "<h2>Grade 1 average: {$_SESSION['grade1']}</h2>";
 echo "<h2>Grade 2 average: {$_SESSION['grade2']}</h2>";
@@ -64,7 +64,7 @@ echo "</section>";
 		echo "<section>";
 
 		echo "<h2>You have already given final review.</h2>";
-		echo "<a href='supervisor.php'>Return</a>";
+		echo "<a href='supervisor.php' class='content'>Return</a>";
 	}
 }
 }

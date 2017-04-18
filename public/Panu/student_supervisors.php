@@ -3,6 +3,7 @@ include("links.php");
 include("header.php");
 include("navbar.php");
 
+echo "<section class='small'>";
 
 echo "<h3>Supervisors</h3>";
 
@@ -17,7 +18,6 @@ $userInfo = array(
 	'email' => 'Email',
 	'password' => 'Password',
 );
-
 $supervisors1 = getSupervisors($thesisID, "supervisor1");
 echo "<h3>Supervisor 1: </h3>";
 foreach($supervisors1 as $sv1){
@@ -25,6 +25,10 @@ foreach($supervisors1 as $sv1){
 		echo $field.": ".$sv1[$key]."<br>";
 	}
 }
+
+echo "</section>";
+
+echo "<section class='small'>";
 
 
 $supervisors2 = getSupervisors($thesisID, "supervisor2");
@@ -34,4 +38,5 @@ foreach($supervisors2 as $sv2){
 		echo $field.": ".$sv2[$key]."<br>";
 	}
 }
+echo "</section>";
 ?>

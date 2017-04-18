@@ -8,7 +8,7 @@ $tabledata = json_decode($json, true);
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
-<section>
+<section class="wide">
 
 <script type="text/javascript">
     // ÄLÄ KOSKE KU KERRAN SAIT TOIMIMAAN :DDD
@@ -83,7 +83,7 @@ foreach($tabledata as $iTopic=>$item)
 				$row = $iRow + 1;
 				$radioRow = "{$topic}{$row}";
 				$radioID = "{$radioRow}{$radioValue}";
-				echo "<td><label for='" . $radioID . "'><input type='radio' name='" . $radioRow . "' id='" . $radioID . "' value='" . $radioValue .  "'><br>{$description}</label></td>";
+				echo "<td><label for='" . $radioID . "' class='evaluation'><input type='radio' name='" . $radioRow . "' id='" . $radioID . "' value='" . $radioValue .  "'><br>{$description}</label></td>";
 				array_push($inputRow, $radioRow);
 
 			}

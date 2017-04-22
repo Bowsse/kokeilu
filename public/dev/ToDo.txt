@@ -1,0 +1,46 @@
+PANUN VAATIMUKSIA JA HUOMAUTUKSIA
+
+
+SAMI
+========================
+
+1. supervisor_theses.php | rivi 11 | TODO: or if not supervisor of this thesis
+2. Testaus 
+3. Kommentoi koodia tarpeen mukaan
+4. Tarkista onko ylimääräistä
+5. Jos motivaatiota selvennä koodia jos mahdollista
+
+
+
+
+JAAKKO & NIKO
+========================
+
+*HUOM OSAAN KOHDISTA ON TEHTY ALUSTAVIA TARKISTUKSIA*
+
+student_thesis.php
+-Studentilla voi olla ainostaan yksi thesis
+-Jos studentilla ei ole thesistä, hän ei voi luoda versiota eikä valita versioita
+-Jos studentilla on thesis mutta ei versioita hän ei voi kommentoida
+-Version luodessa version NIMI pitää olla tiettyä formaattia "Version 0.01->1.00"
+-Version luodessa version URL pitää olla tiettyä formaattia - Ei voilla mitä vain
+-Version URL linkkinä
+-Kommentoinnin rajoittaminen
+
+supervisor_thesis.php
+-Kommentoinnin rajoittaminen
+-Version URL linkkinä
+
+change_password.php
+-salasana min-max pituus
+
+change_thesis_estDate.php
+-estimatedDate täytyy olla oikea päivämäärä (form = YYYY-MM-DD) 
+
+1. Testaus
+2. Olkaa luovia
+
+	
+
+
+

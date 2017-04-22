@@ -1,0 +1,40 @@
+DO NOT CHANGE THESE VALUES
+
+permission
+===============
+0 = student
+1 = supervisor
+1337 = admin
+
+roles
+===============
+admin
+student
+supervisor1
+supervisor2
+
+admin password
+===============
+hash(admin) = $2a$08$yeB4esTCY7sa1xUD.8rroukh22VNdUCzrzgUkr2gqaQ9Hx6IoJCMi
+
+create admin
+===============
+INSERT INTO `K2857`.`Person` (`personID`, `firstname`, `lastname`, `permission`, `email`, `password`, `firstTimeLogin`) VALUES ('admin', 'admin', 'admin', '1337', 'admin', '$2a$08$yeB4esTCY7sa1xUD.8rroukh22VNdUCzrzgUkr2gqaQ9Hx6IoJCMi', '0');
+
+status
+===============
+id = 1 | Urkund
+id = 2 | Maturity test
+id = 3 | Language check
+id = 4 | Ready for review
+
+create statuses
+===============
+INSERT INTO `K2857`.`Status` (`statusID`, `statusName`) VALUES ('1', 'Urkund');
+INSERT INTO `K2857`.`Status` (`statusID`, `statusName`) VALUES ('2', 'Maturity test');
+INSERT INTO `K2857`.`Status` (`statusID`, `statusName`) VALUES ('3', 'Language check');
+INSERT INTO `K2857`.`Status` (`statusID`, `statusName`) VALUES ('4', 'Ready for final review');
+
+
+
+

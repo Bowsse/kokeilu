@@ -1,0 +1,294 @@
+[
+	{
+		"item":
+		{
+		"topic": "1. Aiheen ja lähestymistavan valinta",
+		"subtopic": 
+		[
+				{
+					"text": 
+					
+					[
+
+								"1.1 Aiheen vaativuus",
+								"Aiheen valinta ei noudata JAMK:n opinnäytetyöprosessia.", 
+                                "Aihe on rutiininomainen, mutta tukee opiskelijan opintoja ja ammatillista kehittymistä.",
+                                "Aihe on alalle melko tavanomainen eikä sisällä uusia näkökulmia.",
+                                "Aihe on tavanomainen, mutta sisältää uusia näkökulmia.",
+                                "Aihe on melko haastava ja tuo uutta toimeksiantajalle.",
+                                "Aihe on haastava ja tuo uutta alalle."
+                            ]
+
+
+
+				},
+				{
+					"text": 
+					[
+
+							 	"1.2 Opinnäytetyön ongelman/tavoitteiden määritys ja täsmennys",
+								"Opinnäytetyön ongelma ja tavoitteet ovat määrittelemättä.", 
+                                "Opinnäytetyön ongelmaa ja tavoitteita on pyritty määrittelemään, mutta ne jäävät epäselväksi.",
+                                "Opinnäytetyön ongelma ja tavoitteet ovat suuntaa-antavia. Ne on määritelty osittain tutkimus-/kehittämistehtävän mukaisesti.",
+                                "Opinnäytetyön ongelma ja tavoitteet on rajattu ja määritelty melko selkeästi.",
+                                "Opinnäytetyön ongelma ja tavoitteet on rajattu ja määritelty selkeästi.",
+                                "Opinnäytetyön ongelma ja opinnäytetyön rajaus on fokusoitu hyvin. Tavoitteet ovat selvät ja ne on asetettu oikein ongelman/kehittämistehtävän kannalta."
+                            ]
+
+
+
+				},
+				{
+					"text": 
+					[
+
+								"1.3 Kehittämis-/tutkimusote ja sen osuvuus",
+								"Kehittämis-/tutkimusote puuttuu.", 
+                                "Kehittämis-/tutkimusote on kuvattu, mutta se ei sovellu ilmiöön.",
+                                "Kehittämis-/tutkimusote on kuvattu, mutta sitä ei ole perusteltu.",
+                                "Kehittämis-/tutkimusote on kuvattu ja perustelut valinnalle on esitetty.",
+                                "Kehittämis-/tutkimusote on kuvattu ja perusteltu. Se soveltuu ilmiöön.",
+                                "Kehittämis-/tutkimusote on kuvattu perusteellisesti. Se soveltuu ilmiöön ja perustelut onesitetty. Ote on haastava."
+                            ]
+
+
+
+				}
+
+
+		]
+	}
+},
+	{ "item":
+		{
+		"topic": "2. Tietoperusta ja työn rakenne",
+		"subtopic": 
+		[
+				{
+					"text": 
+					[
+
+								"2.1 Tietoperustan/teorian, viitekehyksenosuvuus ja riittävyys",
+								"Tietoperusta puuttuu.", 
+                                "Tietoperustaon suppea, oppikirjapohjainen ja sivuaa kehittämis-/tutkimusaihetta. Lähdeaineisto on osin vanhentunutta.",
+                                "Tietoperustaon suppeahko, oppikirjapohjainen, tukee kehittämis-/tutkimusaihetta ja liittyy ilmiöön.",
+                                "Tietoperusta on laajahko, aihealueeseen liittyvä, ei oppikirjapohjainen. Mukana on vieraskielistä kirjallisuutta. Tietoperusta on ilmiön kannalta pääosin relevanttia. Lähdekriittisyyttä on noudatettu.",
+                                "Tietoperusta on laaja ja liittyy aihealueeseen. Osa on vieraskielistä. Lähdeaineisto on ilmiön kannalta uutta ja relevanttia. Lähdekriittisyyttä on noudatettu.",
+                                "Tietoperusta on laaja ja liittyy aihealueeseen. Merkittävä osa on vieraskielistä. Lähdeaineisto on ilmiön kannalta uutta ja relevanttia. Lähdekriittisyyttä on noudatettu."
+                            ]
+
+
+
+				},
+				{
+					"text": 
+					[
+
+							 	"2.2 Keskeisten käsitteiden määrittely", 
+                                                "Keskeiset käsitteet ovat määrittelemättä.", 
+                                                "Keskeisiä käsitteitä on yritetty määritellä, mutta ne vain sivuavat ratkaistavaa ongelmaa/käsiteltävää ilmiötä.",
+                                                "Keskeiset käsitteet on määritelty suppeasti ratkaistavan ongelman/käsiteltävän ilmiön näkökulmasta.",
+                                                "Keskeiset käsitteet on määritelty selkeästi,ja ne kytkeytyvät ratkaistavaan ongelmaan/käsiteltävään ilmiöön.",
+                                                "Keskeiset käsitteet on määritelty selkeästi ja johdonmukaisesti aikaisempia tutkimuksia hyödyntäen.",
+                                                "Keskeiset käsitteet on kuvattu hyödyntäen aikaisempia tutkimuksia,ja niitä on tarkasteltu kriittisesti."
+                                            ]
+
+
+
+				},
+				{
+					"text": 
+					[
+
+							 	"2.3 Kehittämis-/tutkimustyönaineiston keruumenetelmien kuvaus ja osuvuus", 
+                                                "Kehittämis-/tutkimustyön aineiston keruumenetelmiä ei ole kuvattu.", 
+                                                "Kehittämis-/tutkimustyön aineiston keruumenetelmiä on kuvattu suppeastija valintaa ei ole perusteltu.",
+                                                "Kehittämis-/tutkimustyön aineiston keruumenetelmät on kuvattu ja valinnat on perusteltu opinnäytetyön kannalta suppeasti.",
+                                                "Kehittämis-/tutkimustyön aineiston keruumenetelmät on kuvattu ja perusteltu. Perustelut ovat riittävät opinnäytetyön kannalta.",
+                                                "Kehittämis-/tutkimustyön aineistonkeruumenetelmät on kuvattu ja perusteltu hyvin opinnäytetyön kannalta.",
+                                                "Kehittämis-/tutkimustyön aineiston keruumenetelmät ovat monipuoliset. Ne on kuvattu ja perusteltu hyvin työn kannalta."
+                            ]
+
+
+
+				},
+				{
+					"text": 
+					[
+
+							 	"2.4 Kehittämis-/tutkimustyön aineiston analyysimenetelmien kuvaus ja osuvuus", 
+                                                "Analyysimenetelmiä ei ole kuvattu.", 
+                                                "Analyysimenetelmät on kuvattu suppeasti. Valitut analyysimenetelmät eivät sovellu kerätyn aineiston analyysiin.",
+                                                "Analyysimenetelmät on kuvattu ja perusteltu. Valitut analyysimenetelmät ovat yksinkertaisia ja soveltuvat kerätyn aineiston analyysiin.",
+                                                "Analyysimenetelmät on kuvattu ja perusteltu opinnäytetyön kannalta riittävästi.  Menetelmät ovat tavanomaisia.",
+                                                "Analyysimenetelmien kuvaus on osuvaa ja perusteltua. Menetelmät ovat perustasoa vaativampia.",
+                                                "Analyysimenetelmien kuvaus on monipuolista ja huolellista. Valitut analyysimenetelmät ovat vaativia." ]
+
+
+
+				}
+			]
+	}
+},
+{ "item":
+		{
+		"topic": "3. Opinnäytetyön toteutus",
+		"subtopic": 
+		[
+				{
+					"text": 
+					[
+
+								"3.1 Opinnäytetyön prosessin/projektin hallinta (itsenäisyys, aikataulutus)", 
+                                                "Opiskelija ei kykene tuottamaanitsenäisesti opinnäytetyötä.", 
+                                                "Opiskelija tarvitsee keskimääräistä enemmän ohjausta useissa perusasioissa.",
+                                                "Opiskelija tarvitsee keskimääräistä enemmän ohjausta useissa perusasioissa.",
+                                                "Opiskelija toteuttaa opinnäytetyön itsenäisesti sovitun aikataulun ja laaditun suunnitelman mukaisesti.",
+                                                "Opiskelija toteuttaa opinnäytetyön itsenäisesti sovitun aikataulun ja laaditun suunnitelman mukaisesti.",
+                                                "Opiskelija toteuttaa opinnäytetyön itseohjautuvasti ja tuloksellisesti ja pystyy tuomaan esille omatoimisesti uusia ratkaisuja/menetelmiä." ]
+
+
+
+				},
+				{
+					"text": 
+					[
+
+							 	"3.2 Kehittämis-/tutkimustyön aineistokeruun toteutus", 
+                                                "Opiskelija ei kykene keräämään luotettavaa aineistoa.", 
+                                                "Kerätty aineisto on riittämätön, luotettavuus on heikko tavoitteiden kannalta.",
+                                                "Kerätty aineisto on suppea, luotettavuus on melko heikko tavoitteiden kannalta.",
+                                                "Kerätty aineisto on riittävä ja luotettava tavoitteiden kannalta.",
+                                                "Kerättyaineisto on laaja ja siitä voidaan tehdä perusteltuja johtopäätöksiä tavoitteiden kannalta.",
+                                                "Kerätty aineisto on laaja, sitä on tarkasteltu kriittisesti ja se antaa luotettavan tuloksen tavoitteiden kannalta."]
+
+
+
+				},
+				{
+					"text": 
+					[
+
+							 	"3.3 Aineistonanalyysi-menetelmien käyttö", 
+                                                "Aineiston analyysimenetelmien käyttö on puutteellista.", 
+                                                "Aineiston analyysimenetelmien käyttö on yksinkertaista ja pinnallista.",
+                                                "Aineiston analyysimenetelmien käyttö on yksinkertaista ja pinnallista.",
+                                                "Aineiston analyysimenetelmien käyttö on tavanomaista perustasoa.",
+                                                "Aineiston analyysimenetelmienkäyttö on perustasoa parempi, menetelmiä on käytetty hyvin.",
+                                                "Aineiston analyysimenetelmien käyttö on perustasoa parempi, menetelmiä on käytetty hyvin ja taitavasti."]
+
+
+
+				}
+				
+			]
+	}
+},
+{ "item":
+		{
+		"topic": "4. Tulokset/tuotokset ja niiden analysointi",
+		"subtopic": 
+		[
+				{
+					"text": 
+					[
+
+								"4.1 Opinnäytetyön tavoitteiden saavuttaminen/ongelman ratkaisu", 
+                                                "Opinnäytetyölle asettuja tavoitteita ei saavuteta.", 
+                                                "Opinnäytetyölle asetetut tavoitteet saavutetaan osittain. Toimeksiantajan palaute osoittaa puutteita työssä.",
+                                                "Opinnäytetyölle asetetut tavoitteet saavutetaan osittain. Toimeksiantajan palaute osoittaa puutteita työssä.",
+                                                "Opinnäytetyölle asetetut tavoitteet saavutetaan. Toimeksiantaja on pääsääntöisesti tyytyväinen työn tuloksiin.",
+                                                "Opinnäytetyölle asetetut tavoitteet saavutetaan. Toimeksiantaja on pääsääntöisesti tyytyväinen työn tuloksiin.",
+                                                "Opinnäytetyölle asetetut tavoitteet saavutetaan erittäin hyvin. Toimeksiantajan palaute on kiittävää." ]
+
+
+
+				},
+				{
+					"text": 
+					[
+
+							 	"4.2 Tulosten/tuotosten ja johtopäätösten esittäminen", 
+                                                "Tulokset/tuotokset ja johtopäätökset puuttuvat.", 
+                                                "Tulokset/tuotokset on esitetty ja johtopäätökset on tehty, mutta ne ovat puutteellisia.",
+                                                "Tulokset/tuotokset on esitetty ja johtopäätökset ovat suuntaa-antavia.",
+                                                "Tulokset/tuotokset on esitetty monipuolisesti, johtopäätösten perusteella pyritään esittämään kehittämisideoita.",
+                                                "Tulokset/tuotokset on esitetty havainnollisesti ja johtopäätöstenperusteella esitetään kehittämisideoita.",
+                                                "Tulokset/tuotokseton esitetty kriittisesti, johtopäätösten perusteella esitetyt toteuttamiskelpoiset kehittämisideat ovat toimeksiantajan hyödynnettävissä." ]
+
+
+
+				},
+				{
+					"text": 
+					[
+
+							"4.3 Opinnäytetyönlaadun varmennus ja luotettavuus", 
+                                                "Luotettavuuden / laadunarviointi puuttuu kokonaan.", 
+                                                "Luotettavuuden / laadunarviointi on puutteellinen.",
+                                                "Luotettavuuden / laadunarviointi on tehty osittain / pinnallisesti.",
+                                                "Luotettavuuden / laadunarviointi on tehty muodollisesti oikein.",
+                                                "Luotettavuuden / laadunarviointi on perusteellinen.",
+                                                "Luotettavuuden / laadunarviointi on perusteellinen ja tarkastelu on reflektiivistä ja kriittistä." ]
+
+
+
+				}
+			]
+	}
+},
+{ "item":
+		{
+		"topic": "5. Raportointi",
+		"subtopic": 
+		[
+				{
+					"text": 
+					[
+
+								"5.1 Raportoinnin tarkkuus ja havainnollisuus", 
+                                                "Opiskelija ei pysty raportoimaan opinnäytetyötään johdonmukaisesti ja havainnollisesti. Työssä on havaintoja plagioinnista.", 
+                                                "Raportointi on johdonmukaista ja havainnollista, mutta siinä onjoitakin epäloogisuuksia ja puutteita.",
+                                                "Raportointi on johdonmukaista ja havainnollista, mutta siinä onjoitakin epäloogisuuksia ja puutteita.",
+                                                "Raportointi on tehty johdonmukaisesti, perustellusti ja havainnollisesti. Siinä on vähäisiä puutteita.",
+                                                "Raportointi on tehty analyyttisesti ja havainnollisesti.",
+                                                "Raportointi on vakuuttavaa, vaikuttavaa ja tuo hankitun osaamisen hyvin esille." ]
+
+
+
+				},
+				{
+					"text": 
+					[
+
+							 	"5.2 Opinnäytetyön kieli ja asiatyyli", 
+                                                "Opiskelija ei pysty itsenäisesti tuottamaan hyväksyttävää tekstiä.", 
+                                                "Opiskelijan teksti on jäsentymätöntä ja siinä on paljon erilaisia kieli- ja tyylivirheitä. Vaatii paljon ohjausta.",
+                                                "Opiskelijan teksti on osittain jäsentymätöntä ja siinä on toistuvia kieli- ja tyylivirheitä. Vaatii melko paljon ohjausta.",
+                                                "Opiskelijan teksti on jäsentynyttä ja siinä on satunnaisia kieli- ja tyylivirheitä. Vaatii jonkin verran ohjausta.",
+                                                "Opiskelijan teksti on sujuvaa ja lähes virheetöntä. Ei juuri vaadi ohjausta.",
+                                                "Opiskelijan teksti on sujuvaa ja (lähes) virheetöntä. Ei vaadi ohjausta."]
+
+
+
+				},
+				{
+					"text": 
+					[
+
+							"5.3 Raportointiohjeiden noudattaminen", 
+                                                "Ei noudata JAMKin raportointiohjeistusta.", 
+                                                "Noudattaa JAMKin raportointiohjeistusta. Ohjeistuksen noudattaminen on kuitenkin erittäin puutteellista.",
+                                                "Noudattaa JAMKin raportointiohjeistusta. Ohjeidenhallinta on kuitenkin melko puutteellista.",
+                                                "Noudattaa keskeisiltä osin JAMKin raportointiohjeistusta (lähdemerkinnät, rakenne, ulkoasu). Yksityiskohdissa voi olla puutteita.",
+                                                "Noudattaa JAMKin raportointiohjeistusta. Yksityiskohdissa voi olla vähäisiä puutteita.",
+                                                "Noudattaa kaikilta osin JAMKin raportointiohjeistusta."  ]
+
+
+
+				}
+			]
+	}
+}
+]
+

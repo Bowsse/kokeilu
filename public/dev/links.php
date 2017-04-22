@@ -12,6 +12,9 @@
 // db-init
 require_once("../../../../db_init.php");
 
+//password library
+require_once('PasswordLib/PasswordLib.phar');
+
 // queries
 require_once("queries.php");
 ?>
